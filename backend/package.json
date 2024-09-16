@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "prestart": "npm run build"
   },
   "dependencies": {
     "express": "^4.21.0",

@@ -6,6 +6,9 @@ WORKDIR /app
 # Copier le package.json et le package-lock.json
 COPY ./jetriemesdechets/package*.json ./
 
+# Ignorer les vérifications SSL strictes
+RUN npm config set strict-ssl false
+
 # Installer les dépendances
 RUN npm install
 

@@ -12,3 +12,11 @@ DrawSQL des données : https://drawsql.app/teams/matlav/diagrams/jetriemesdechet
 
     - Next.js
     - Tailwind
+
+# Lancer le projet
+
+A la racine du projet :
+
+```
+docker-compose --env-file backend/.env up --build
+```
