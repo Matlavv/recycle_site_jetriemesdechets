@@ -1,0 +1,20 @@
+# Ignore les fichiers et dossiers spécifiques à Docker
+.dockerignore
+
+# Ignore le fichier .env
+.env
+
+# Ignore les fichiers de configuration de PostgreSQL
+# (ajuster les noms de fichiers si nécessaire)
+pgdata/
+pg_log/
+
+# Ignore les fichiers spécifiques à Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore les fichiers de build du backend
+# (ajuster les noms de dossiers si nécessaire)
+dist/
+build/
